@@ -1,0 +1,13 @@
+import math
+num=input("Enter the comma seperated values")
+sum = 0
+a=num.split(",")
+b=len(a)
+for i in a:
+    i=float(i)
+    sum=sum+(i*i)
+avg=(sum)/b
+rms=math.sqrt(avg)
+#print(sum)
+print(rms)
+    
