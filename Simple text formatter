@@ -1,0 +1,5 @@
+sentence=str(input("Enter a string"));
+print("Small Caps",sentence.lower());
+print("All Caps",sentence.upper());
+print("Title Case",sentence.title());
+print("Start Case",sentence.capitalize());
